@@ -1,0 +1,12 @@
+Mojolicious:
+	Web application framework for ther perl
+	install -> perl,cpan and mojolicious
+
+starts:
+	script:
+		hello.pl
+			use mojo library commands to start -> lib -> hello.pm
+		hello.pm
+			use lib and routes -> to indicates templates -> welcome.html.ep file
+		template/welcome.html.ep
+			routes to public -> index.html
